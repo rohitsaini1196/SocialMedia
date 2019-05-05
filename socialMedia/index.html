@@ -1,0 +1,50 @@
+<html>
+  <head> </head>
+
+  <body>
+    <center>
+      <div class="log-form">
+        <h2>Login to your account</h2>
+
+        <input
+          type="text"
+          title="username"
+          placeholder="username"
+          id="usernamei"
+        /><br />
+        <input
+          type="password"
+          title="username"
+          placeholder="password"
+          id="passwordi"
+        /><br />
+        <button onclick="login()">login</button><br />
+        <br />
+        <a class="forgot" href="#">Forgot Username?</a>
+        <br />
+        <br />
+        <a class="signup" href="#">signup?</a>
+      </div>
+    </center>
+    <script>
+      function login() {
+        var uname = "user1";
+        var pass = "123";
+        var usernamei = document.getElementById("usernamei").value;
+        var passwordi = document.getElementById("passwordi").value;
+
+        if (uname == usernamei && pass == passwordi) {
+          // window.open("user/sidsa/index.html");
+          window.open("dashboard.html");
+
+          ///Users/sidsa/Documents/learn/Users/sidsa/Documents/learn/user/sidsa/index.html
+          //C:\Users\sidsa\Documents\learn\user\sidsa
+          // alert('you are logged in..');
+          window.close;
+        }
+
+        //alert('gg');
+      }
+    </script>
+  </body>
+</html>
