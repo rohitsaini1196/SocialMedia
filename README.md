@@ -1,22 +1,28 @@
 # SocialMedia
-This is a Social Media app works only on Front-End :( .You can do Post , like, comment, friend request etc.
+### Description : 
+##### SocialMedia App - Sign In, Post content (text/pictures), Like, Comment, Add Friends etc.
 
 
-### Username & Password
-**username:** _user1_  and **password:** _123_
+### Live Demo: 
 
-~~Frond end is only HTML, I didn't have time to make  good UI , sorry~~
+###### Host: [stillthristy.in/socialMedia](http://stillthristy.in/socialMedia)
+###### Demo Credentials 
+username : user1, password: 123
 
-Visit
-[stillthristy.in/socialMedia](http://stillthristy.in/socialMedia)
 
-1. Login LogOut
+
+
+#### Supported Features
+
+1. User Login Logut
 2. You can update and post on your timeline.
 3. You can like comment and share.
 4. Add friends, remove friends
 5. Notification Controller.
 6. Add upcoming events
 
+Screenshot 
 
+![](https://github.com/rohitsaini1196/SocialMedia/blob/master/socialMedia/sshot2.png)
 
 >Have fun.
